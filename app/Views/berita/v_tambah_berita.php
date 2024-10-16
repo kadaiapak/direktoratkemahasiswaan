@@ -72,8 +72,8 @@
                                 <option value="">-- Pilih Sub Kategori --</option>
                                 <option value="1" <?= old('berita_subkategori') == 1 ? "selected" : null ; ?>>Beasiswa</option>
                                 <option value="2" <?= old('berita_subkategori') == 2 ? "selected" : null ; ?>>Organisasi</option>
-                                <option value="3" <?= old('berita_subkategori') == 3 ? "selected" : null ; ?>>Alumni</option>
-                                <option value="4" <?= old('berita_subkategori') == 4 ? "selected" : null ; ?>>Prestasi</option>
+                                <option value="3" <?= old('berita_subkategori') == 3 ? "selected" : null ; ?>>Prestasi</option>
+                                <option value="4" <?= old('berita_subkategori') == 4 ? "selected" : null ; ?>>Alumni</option>
                             </select>
                             <div class="invalid-feedback" style="text-align: left;">
                                 <?= validation_show_error('berita_subkategori'); ?>
